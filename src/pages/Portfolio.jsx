@@ -42,7 +42,7 @@ const Portfolio = () => {
       tags: ["React", "MongoDB", "Tailwind", "JWT"],
       stats: ["JWT authentication", "Cloudinary uploads"],
       link: "View project →",
-      image: "public/web1.png",
+      image: "/web1.jpg",
       url: "https://upahar-one.vercel.app/",
     },
     {
@@ -54,7 +54,7 @@ const Portfolio = () => {
       tags: ["React", "Tailwind", "Node.js", "MongoDB"],
       stats: ["Responsive UI", "REST API integration"],
       link: "View project →",
-      image: "/public/web2.png",
+      image: "/web2.jpg",
       url: "https://traveldoc-steel.vercel.app/",
     },
    
@@ -73,7 +73,7 @@ const Portfolio = () => {
     //   rotate: "rotate-2",
     // },
     {
-      image: "public/food.jpg",
+      image: "/food.jpg",
       title: "food comes first",
       rotate: "-rotate-1",
     },
@@ -83,12 +83,12 @@ const Portfolio = () => {
       rotate: "rotate-2",
     },
     {
-      image: "public/escape.jpg",
+      image: "/escape.jpg",
       title: "little escapes",
       rotate: "-rotate-2",
     },
     {
-      image: "public/food2.jpg",
+      image: "/food2.jpg",
       title: "probably thinking about food",
       rotate: "rotate-1",
     },
