@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #FFFAD3;
+  --color-paper-light: #fbf8f2;
+  --color-ink: #292521;
+  --color-soft-ink: #625b54;
+  --color-coral: #e8795f;
+  --color-sage: #78917f;
+  --color-line: #ddd5c9;
+  --color-card: #fffdf9;
+
+  --font-display: "DM Sans", sans-serif;
+  --font-hand: "Caveat", cursive;
+}
+
+.doodle {
+  
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.doodle path,
+.doodle ellipse,
+.doodle circle,
+.doodle rect {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
